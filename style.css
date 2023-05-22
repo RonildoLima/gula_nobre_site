@@ -1,0 +1,146 @@
+/* Estilos CSS */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 0px;      
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top, #FF3131, #FF914D);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  width: 100%;
+  z-index: 100;
+  padding: 10px 20px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+}
+
+.menu li {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Estilos das seções */
+.secoes-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.subsection {
+  margin-bottom: 100px;
+}
+
+.section-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  font: optional;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+}
+
+.text-content {
+  flex: 15;
+}
+
+.image-content {
+  flex: 0 0 auto;
+  margin-left: 20px;
+}
+
+.image-content img {
+  width: 200px;
+}
+
+.section-cardapio {
+  display: flex;
+}
+
+.sabores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sabor {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sabor-nome {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sabor img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 20px #dd0f0f);
+}
+
+.logo {
+  width: 250px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Alinha as imagens ao centro horizontalmente */
+  margin-top: 20px; /* Espaço entre o parágrafo e as imagens */
+}
+
+.image-container img {
+  width: 1000%; /* Ajuste o tamanho das imagens conforme desejado */
+  height: auto;
+  margin: 0 10px; /* Espaço horizontal entre as imagens */
+}
+
+
